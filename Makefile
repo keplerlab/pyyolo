@@ -22,7 +22,7 @@ AR=ar
 NVCC=nvcc 
 OPTS=-Ofast
 COMMON= 
-CFLAGS=-Wall -Wfatal-errors -Wno-unused-result -fPIC
+CFLAGS=-Wall -Wfatal-errors -Wno-unused-result -fPIC -w
 CFLAGS+=-I./darknet/src -I./darknet/include
 
 ifeq ($(DEBUG), 1) 
